@@ -1,0 +1,33 @@
+mô hình MVC
+
+mô hình SOAP 
+
+chuẩn REST
+
+    Methods : GET, POST, PUT/PATCH, DELETE, OPTIONS.
+        GET :
+            Index: /students
+            Show:  /students/:id
+            New:   /students/new
+            Edit:  /students/:id/edit
+        POST:
+            Create: /students(body)
+        PUT:
+            Update: /students/:id
+        DELETE:
+            Destroy: /students/:id
+    
+    Status code: HTTP Status code 
+        
+        1xx - Phản hồi thông tin: Máy chủ đang duyệt yêu cầu của bạn.
+        2xx - Phản hồi thành công! Yêu cầu đã được chấp nhận, hiểu và hoàn tất. 
+        3xx - Chuyển hướng: Bạn đã được chuyển hướng đến một trang khác. 
+        4xx - Lỗi do client không đưa ra yêu cầu hợp lệ: Không tìm thấy trang, cú pháp không chính xác, không thể truy cập trang web.
+
+    Routes/Controllers
+        Resources
+        Resource
+        Nested Resources
+
+    CORS (nâng cao)
+
